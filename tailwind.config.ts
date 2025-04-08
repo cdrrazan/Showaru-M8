@@ -102,7 +102,7 @@ export default {
 				fadeIn: 'fadeIn 0.5s ease-out'
 			},
 			fontFamily: {
-				outfit: ['Outfit', 'sans-serif']
+				nunito: ['Nunito', 'sans-serif']
 			}
 		}
 	},

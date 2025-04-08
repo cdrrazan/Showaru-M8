@@ -90,11 +90,11 @@
   }
 
   body {
-    @apply bg-background text-foreground font-outfit;
+    @apply bg-background text-foreground font-nunito;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    @apply font-outfit font-bold;
+    @apply font-nunito font-bold;
   }
 
   .container {
