@@ -33,19 +33,29 @@ const Navbar = () => {
               Reviews
             </a>
           </div>
+          {/* Authentication Buttons */}
+          {/* Log In Button */}
           <div className="flex items-center space-x-4">
-            <Button variant="outline" className="border-primary text-primary hover:bg-primary hover:text-white">
-              Log in
-            </Button>
-            <Button className="bg-accent text-white hover:bg-accent/90">
-              Sign up
-            </Button>
+            <a href={"https://showaru.app.rsynk.com/users/sign_in"}>
+              <Button variant="outline"
+                      className="border-primary text-primary hover:bg-primary hover:text-white">
+                Log in
+              </Button>
+            </a>
+            {/* Sign Up Button */}
+            <a href={"https://showaru.app.rsynk.com/users/sign_up"}
+               target="_blank"
+               rel="noopener noreferrer">
+              <Button className="bg-accent text-white hover:bg-accent/90">
+                Sign up
+              </Button>
+            </a>
           </div>
         </div>
 
         {/* Mobile Menu Button */}
         <button className="md:hidden text-primary" onClick={toggleMenu}>
-          {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+        {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
       </div>
 
