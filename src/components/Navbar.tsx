@@ -92,12 +92,20 @@ const Navbar = () => {
               Reviews
             </a>
             <div className="flex flex-col space-y-3 pt-2">
-              <Button variant="outline" className="border-primary text-primary hover:bg-primary hover:text-white w-full">
-                Log in
-              </Button>
-              <Button className="bg-accent text-white hover:bg-accent/90 w-full">
-                Sign up
-              </Button>
+              <a href={"https://showaru.app.rsynk.com/users/sign_in"}>
+                <Button variant="outline"
+                        className="border-primary text-primary hover:bg-primary hover:text-white w-full">
+                  Log in
+                </Button>
+              </a>
+              <a href={"https://showaru.app.rsynk.com/users/sign_up"}
+                 target="_blank"
+                 rel="noopener noreferrer">
+                <Button
+                    className="bg-accent text-white hover:bg-accent/90 w-full">
+                  Sign up
+                </Button>
+              </a>
             </div>
           </div>
         </div>

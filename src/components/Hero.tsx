@@ -14,12 +14,18 @@ const Hero = () => {
               Create professional landing pages in minutes from our wide range of customizable themes and get online fast.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
-              <Button className="bg-accent hover:bg-accent/90 text-white px-8 py-6 text-lg">
-                Get Started Free
-              </Button>
-              <Button variant="outline" className="border-primary text-primary hover:bg-primary hover:text-white px-8 py-6 text-lg">
-                View Demo
-              </Button>
+              <a href={"https://showaru.app.rsynk.com/users/sign_up"}>
+                <Button
+                    className="bg-accent hover:bg-accent/90 text-white px-8 py-6 text-lg">
+                  Get Started Free
+                </Button>
+              </a>
+              <a href={"https://showaru.app.rsynk.com/users/sign_in"}>
+                <Button variant="outline"
+                        className="border-primary text-primary hover:bg-primary hover:text-white px-8 py-6 text-lg">
+                  View Demo
+                </Button>
+              </a>
             </div>
             <div className="pt-6 text-sm text-primary/70">
               No credit card required • 14-day free trial • Cancel anytime

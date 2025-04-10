@@ -7,15 +7,21 @@ const GetStarted = () => {
           Join thousands of businesses who are already creating beautiful, professional landing pages with Showaru.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Button className="bg-accent hover:bg-accent/90 text-white px-8 py-6 text-lg">
-            Start Your Free Trial
-          </Button>
-          <Button variant="outline" className="border-white hover:bg-primary hover:text-white px-8 py-6 text-lg text-slate-950">
-            View Demos
-          </Button>
+          <a href={"https://showaru.app.rsynk.com/users/sign_up"}>
+            <Button
+                className="bg-accent hover:bg-accent/90 text-white px-8 py-6 text-lg">
+              Start Your Free Trial
+            </Button>
+          </a>
+          <a href={"https://showaru.app.rsynk.com/users/sign_up"}>
+            <Button variant="outline"
+                    className="border-white hover:bg-primary hover:text-white px-8 py-6 text-lg text-slate-950">
+              View Demos
+            </Button>
+          </a>
         </div>
         <p className="mt-6 text-white/80 text-sm">
-          No credit card required • 14-day free trial • Cancel anytime
+        No credit card required • 14-day free trial • Cancel anytime
         </p>
       </div>
     </section>;
